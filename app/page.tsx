@@ -1,8 +1,8 @@
 export default function Home() {
   return (
-    <div>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <h1>AI Humanizer</h1>
-      <p>Deployment test successful!</p>
-    </div>
+      <p>Text humanization service ready!</p>
+    </main>
   );
 }
